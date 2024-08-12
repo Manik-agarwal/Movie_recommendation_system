@@ -1,0 +1,74 @@
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.recommendation-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#word-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#recommend-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#recommend-button:hover {
+    background-color: #555;
+}
+
+.movie-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie {
+    width: 200px;
+    text-align: center;
+    perspective: 1000px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.movie:hover img {
+    transform: rotateY(20deg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.movie h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
